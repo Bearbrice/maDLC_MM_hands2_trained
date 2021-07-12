@@ -1,0 +1,188 @@
+all_joints:
+- [0]
+- [1]
+- [2]
+- [3]
+- [4]
+- [5]
+- [6]
+- [7]
+- [8]
+- [9]
+- [10]
+- [11]
+- [12]
+- [13]
+- [14]
+- [15]
+all_joints_names: [wristCenter, thumbStart, thumbCenter, thumbEnd, indexStart, indexCenter,
+  indexEnd, middleStart, middleCenter, middleEnd, ringStart, ringCenter, ringEnd,
+  littleStart, littleCenter, littleEnd]
+alpha_r: 0.02
+batch_size: 8
+clahe: true
+claheratio: 0.1
+cropratio: 0.4
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_maDLC_MM_handsJul8/maDLC_MM_hands_Brice95shuffle1.pickle
+dataset_type: multi-animal-imgaug
+decay_steps: 30000
+display_iters: 500
+edge: false
+emboss:
+  alpha: [0.0, 1.0]
+  embossratio: 0.1
+  strength: [0.5, 1.5]
+global_scale: 0.8
+histeq: true
+histeqratio: 0.1
+init_weights: /usr/local/lib/python3.7/dist-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+lr_init: 0.0005
+max_input_size: 1500
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_maDLC_MM_handsJul8/Documentation_data-maDLC_MM_hands_95shuffle1.pickle
+min_input_size: 64
+mirror: false
+multi_step:
+- [0.0001, 7500]
+- [5.0e-05, 12000]
+- [1.0e-05, 200000]
+net_type: resnet_50
+num_joints: 16
+num_limbs: 115
+optimizer: adam
+pafwidth: 20
+pairwise_huber_loss: false
+pairwise_loss_weight: 0.1
+pairwise_predict: false
+partaffinityfield_graph:
+- [6, 9]
+- [7, 12]
+- [0, 7]
+- [1, 6]
+- [0, 10]
+- [3, 7]
+- [2, 5]
+- [1, 11]
+- [5, 8]
+- [6, 7]
+- [6, 10]
+- [0, 4]
+- [8, 15]
+- [4, 10]
+- [2, 6]
+- [5, 11]
+- [4, 5]
+- [10, 13]
+- [14, 15]
+- [0, 1]
+- [3, 12]
+- [1, 12]
+- [8, 12]
+- [4, 15]
+- [2, 11]
+- [5, 14]
+- [10, 14]
+- [6, 13]
+- [11, 15]
+- [7, 8]
+- [0, 14]
+- [3, 11]
+- [8, 9]
+- [4, 12]
+- [2, 12]
+- [6, 14]
+- [7, 15]
+- [12, 13]
+- [1, 5]
+- [0, 11]
+- [3, 6]
+- [1, 10]
+- [6, 11]
+- [0, 5]
+- [0, 8]
+- [4, 11]
+- [3, 5]
+- [2, 7]
+- [9, 13]
+- [5, 10]
+- [4, 6]
+- [5, 7]
+- [0, 2]
+- [3, 15]
+- [1, 3]
+- [8, 13]
+- [4, 8]
+- [2, 8]
+- [5, 13]
+- [10, 15]
+- [11, 14]
+- [7, 11]
+- [0, 15]
+- [3, 10]
+- [1, 14]
+- [8, 10]
+- [4, 13]
+- [2, 13]
+- [9, 11]
+- [6, 15]
+- [11, 13]
+- [7, 14]
+- [12, 14]
+- [13, 15]
+- [1, 4]
+- [0, 12]
+- [3, 9]
+- [2, 3]
+- [1, 9]
+- [2, 14]
+- [6, 8]
+- [7, 13]
+- [0, 6]
+- [1, 7]
+- [0, 9]
+- [3, 4]
+- [2, 4]
+- [9, 12]
+- [5, 9]
+- [4, 7]
+- [10, 11]
+- [5, 6]
+- [0, 3]
+- [3, 14]
+- [1, 2]
+- [4, 9]
+- [2, 9]
+- [9, 15]
+- [5, 12]
+- [10, 12]
+- [7, 10]
+- [3, 13]
+- [1, 13]
+- [8, 11]
+- [4, 14]
+- [2, 10]
+- [9, 10]
+- [6, 12]
+- [11, 12]
+- [7, 9]
+- [12, 15]
+- [13, 14]
+- [0, 13]
+- [3, 8]
+- [1, 8]
+partaffinityfield_predict: true
+pos_dist_thresh: 17
+project_path: /content/maDLC_MM_hands2/maDLC_MM_hands-Brice-2021-07-08
+rotation: 25
+rotratio: 0.4
+save_iters: 10000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+sharpen: false
+sharpenratio: 0.3
+weigh_only_present_joints: false
