@@ -1,0 +1,324 @@
+    # Project definitions (do not edit)
+Task: maDLC_MM_hands
+scorer: Brice
+date: Jul8
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: /content/maDLC_MM_hands2/maDLC_MM_hands-Brice-2021-07-08
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\VPers2_cropped.mp4:
+    crop: 0, 400, 0, 400
+individuals:
+- leftHand
+- rightHand
+uniquebodyparts: []
+multianimalbodyparts:
+- wristCenter
+- thumbStart
+- thumbCenter
+- thumbEnd
+- indexStart
+- indexCenter
+- indexEnd
+- middleStart
+- middleCenter
+- middleEnd
+- ringStart
+- ringCenter
+- ringEnd
+- littleStart
+- littleCenter
+- littleEnd
+skeleton:
+- - indexEnd
+  - middleEnd
+- - middleStart
+  - ringEnd
+- - wristCenter
+  - middleStart
+- - thumbStart
+  - indexEnd
+- - wristCenter
+  - ringStart
+- - thumbEnd
+  - middleStart
+- - thumbCenter
+  - indexCenter
+- - thumbStart
+  - ringCenter
+- - indexCenter
+  - middleCenter
+- - indexEnd
+  - middleStart
+- - indexEnd
+  - ringStart
+- - wristCenter
+  - indexStart
+- - middleCenter
+  - littleEnd
+- - indexStart
+  - ringStart
+- - thumbCenter
+  - indexEnd
+- - indexCenter
+  - ringCenter
+- - indexStart
+  - indexCenter
+- - ringStart
+  - littleStart
+- - littleCenter
+  - littleEnd
+- - wristCenter
+  - thumbStart
+- - thumbEnd
+  - ringEnd
+- - thumbStart
+  - ringEnd
+- - middleCenter
+  - ringEnd
+- - indexStart
+  - littleEnd
+- - thumbCenter
+  - ringCenter
+- - indexCenter
+  - littleCenter
+- - ringStart
+  - littleCenter
+- - indexEnd
+  - littleStart
+- - ringCenter
+  - littleEnd
+- - middleStart
+  - middleCenter
+- - wristCenter
+  - littleCenter
+- - thumbEnd
+  - ringCenter
+- - middleCenter
+  - middleEnd
+- - indexStart
+  - ringEnd
+- - thumbCenter
+  - ringEnd
+- - indexEnd
+  - littleCenter
+- - middleStart
+  - littleEnd
+- - ringEnd
+  - littleStart
+- - thumbStart
+  - indexCenter
+- - wristCenter
+  - ringCenter
+- - thumbEnd
+  - indexEnd
+- - thumbStart
+  - ringStart
+- - indexEnd
+  - ringCenter
+- - wristCenter
+  - indexCenter
+- - wristCenter
+  - middleCenter
+- - indexStart
+  - ringCenter
+- - thumbEnd
+  - indexCenter
+- - thumbCenter
+  - middleStart
+- - middleEnd
+  - littleStart
+- - indexCenter
+  - ringStart
+- - indexStart
+  - indexEnd
+- - indexCenter
+  - middleStart
+- - wristCenter
+  - thumbCenter
+- - thumbEnd
+  - littleEnd
+- - thumbStart
+  - thumbEnd
+- - middleCenter
+  - littleStart
+- - indexStart
+  - middleCenter
+- - thumbCenter
+  - middleCenter
+- - indexCenter
+  - littleStart
+- - ringStart
+  - littleEnd
+- - ringCenter
+  - littleCenter
+- - middleStart
+  - ringCenter
+- - wristCenter
+  - littleEnd
+- - thumbEnd
+  - ringStart
+- - thumbStart
+  - littleCenter
+- - middleCenter
+  - ringStart
+- - indexStart
+  - littleStart
+- - thumbCenter
+  - littleStart
+- - middleEnd
+  - ringCenter
+- - indexEnd
+  - littleEnd
+- - ringCenter
+  - littleStart
+- - middleStart
+  - littleCenter
+- - ringEnd
+  - littleCenter
+- - littleStart
+  - littleEnd
+- - thumbStart
+  - indexStart
+- - wristCenter
+  - ringEnd
+- - thumbEnd
+  - middleEnd
+- - thumbCenter
+  - thumbEnd
+- - thumbStart
+  - middleEnd
+- - thumbCenter
+  - littleCenter
+- - indexEnd
+  - middleCenter
+- - middleStart
+  - littleStart
+- - wristCenter
+  - indexEnd
+- - thumbStart
+  - middleStart
+- - wristCenter
+  - middleEnd
+- - thumbEnd
+  - indexStart
+- - thumbCenter
+  - indexStart
+- - middleEnd
+  - ringEnd
+- - indexCenter
+  - middleEnd
+- - indexStart
+  - middleStart
+- - ringStart
+  - ringCenter
+- - indexCenter
+  - indexEnd
+- - wristCenter
+  - thumbEnd
+- - thumbEnd
+  - littleCenter
+- - thumbStart
+  - thumbCenter
+- - indexStart
+  - middleEnd
+- - thumbCenter
+  - middleEnd
+- - middleEnd
+  - littleEnd
+- - indexCenter
+  - ringEnd
+- - ringStart
+  - ringEnd
+- - middleStart
+  - ringStart
+- - thumbEnd
+  - littleStart
+- - thumbStart
+  - littleStart
+- - middleCenter
+  - ringCenter
+- - indexStart
+  - littleCenter
+- - thumbCenter
+  - ringStart
+- - middleEnd
+  - ringStart
+- - indexEnd
+  - ringEnd
+- - ringCenter
+  - ringEnd
+- - middleStart
+  - middleEnd
+- - ringEnd
+  - littleEnd
+- - littleStart
+  - littleCenter
+- - wristCenter
+  - littleStart
+- - thumbEnd
+  - middleCenter
+- - thumbStart
+  - middleCenter
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 6
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: true
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+video_sets_original:
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\VPers2.mp4:
+    crop: 0, 852, 0, 480
